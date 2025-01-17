@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Lato";
+    src: url("./resources/Lato/Lato-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("./resources/Lato/Lato-Bold.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./resources/Poppins/Poppins-Regular.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #F2F5F9;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+article.business-card {
+    background-color: #FFFFFF;
+    width: 418px;
+    border-radius: 15px;
+}
+
+article.business-card header {
+    background-image: url(./resources/hero-image-1.jpg);
+    height: 280px;
+    width: 100;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 15px;
+    background-position-y: -10px;
+    background-repeat: no-repeat;
+}
+
+article.business-card header img {
+    width: 100%;
+}
+
+.card-content {
+    padding: 0 35px;
+}
+
+.card-content h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    letter-spacing: -1px;
+    color: #111729;
+}
+
+.card-content p {
+    margin-top: 15px;
+    color: #4A5567;
+    line-height: 25px;
+}
+
+.card-separator {
+    height: 25px;
+    border-bottom: 1px solid #F2F5F9;
+}
+
+article.business-card footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 35px;
+    gap: 12px;
+}
+
+.card-footer-logo img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border-style: inset;
+    border: 4px solid #F2F5F9;
+}
+
+footer h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer p {
+    color: #4A5567;
+    font-size: 14px;
+}
